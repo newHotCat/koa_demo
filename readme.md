@@ -4,6 +4,7 @@
 
 ### 目录结构
 
+```
 ├── init # 数据库初始化目录
 │   ├── index.js # 初始化入口文件
 │   ├── sql/    # sql脚本文件目录
@@ -23,9 +24,11 @@
     ├── build/   # webpack编译配置目录
     ├── output/  # 编译后前端代码目录&静态资源前端访问目录
     └── src/ # 前端源代码目录
+```
 
 #### 后端代码目录，分层设计
 
+```
 └── server
     ├── controllers # 操作层 执行服务端模板渲染，json接口返回数据，页面跳转
     │   ├── admin.js
@@ -48,8 +51,10 @@
         ├── error.ejs
         ├── index.ejs
         └── work.ejs
+```
 
 #### 前端 react.js + less + sass + antd 环境
+```
 
 └── static # 项目静态文件目录
     ├── build
@@ -67,3 +72,5 @@
         ├── pages
         ├── texts
         └── utils
+
+```
